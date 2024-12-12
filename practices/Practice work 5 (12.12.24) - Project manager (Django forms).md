@@ -326,31 +326,19 @@ def task(request, task_id):
 
 ---
 
-<style>
-  .buttons {
-    display: flex;
-    padding-bottom: 40px;
-    gap: 10px
-  }
-
-  .buttons a {
+<div style="display: flex; padding-bottom: 40px; gap: 10px;">
+  <a style="
     display: block;
     text-decoration: none;
     color: white;
     padding: 10px;
     border-radius: 10px;
-  }
-
-  .buttons a.primary {
-    background: #0d6efd;
-  }
-
-  .buttons a.secondary {
-    background: #6c757d;
-  }
-</style>
-
-<div class="buttons">
-  <a class="primary" href="https://forms.gle/224CibgUdUJPbi6u9">Мне понравилось</a>
-  <a class="secondary" href="https://forms.gle/224CibgUdUJPbi6u9">Мне не понравилось</a>
+    background: #0d6efd;" href="https://forms.gle/224CibgUdUJPbi6u9">Мне понравилось</a>
+  <a style="
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: #6c757d;" href="https://forms.gle/224CibgUdUJPbi6u9">Мне не понравилось</a>
 </div>
